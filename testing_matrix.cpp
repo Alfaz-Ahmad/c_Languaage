@@ -1,7 +1,8 @@
+// Multiplication of Matrix
 # include<stdio.h>
 
 int main(){
-	int r1, r2, c1, c2, i, j, k, e, s, sum = 0;
+	int r1, r2, c1, c2, i, j, k, e, sum;
 	//printf("Enter the order of 1st matrix: ");
 	scanf("%d %d",&r1, &c1);
 	int mat1[r1*c1];
